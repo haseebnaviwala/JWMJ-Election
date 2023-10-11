@@ -1,0 +1,332 @@
+.homepage-main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.backgroundImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(100%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* transition: all ease 1.25s; */
+}
+.backgroundImage h1:first-of-type {
+    margin-left: 2rem !important;
+}
+.otpMain {
+    color: #282828;
+}
+
+.otpNav {
+    width: 45vw;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.otpNav div:nth-of-type(2) {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* line-height: 12px; */
+}
+
+.otpNav div:nth-of-type(2) p {
+    margin: 0;
+    color: #00b2ff;
+}
+
+.otpNav div:nth-of-type(1) {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.content {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.content div:first-of-type {
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div:nth-of-type(1) input {
+    width: 200px;
+    height: 41px;
+}
+
+.content h1:nth-of-type(1) {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: row !important;
+    font-size: 1.5rem !important;
+    background-color: #efefef;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+}
+
+.inputField input {
+    font-size: 1rem;
+    border: none;
+    background-color: #efefef;
+    margin-left: 1rem;
+}
+
+.inputField input:focus {
+    list-style: none;
+    border: none;
+    border-style: none;
+    outline: none;
+}
+
+.loginButton {
+    background-color: #00b2ff;
+    width: 260px !important;
+    height: 41px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+.loginButton:hover {
+    background-color: #00a1e6;
+}
+.loginButton:active {
+    background-color: #0098da;
+}
+
+.i-icon {
+    font-size: 0.7rem;
+    min-width: 0.8rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #939393;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #939393;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.otp-instruction {
+    font-size: 0.7rem;
+    width: 260px;
+    color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0.6rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translate(-50%, 0);
+    color: #939393;
+    z-index: -10;
+}
+.footer h4 {
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+/*  **************************** L O G I N   C S S **************************** */
+
+.loginMain {
+    color: #282828;
+}
+
+.loginContent {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.loginContent div:nth-of-type(1) {
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContent div:nth-of-type(1) input {
+    width: 200px;
+    height: 41px;
+}
+
+.loginContent h1:nth-of-type(1) {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: row !important;
+    font-size: 1.5rem !important;
+    background-color: #efefef;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+}
+
+.inputField input {
+    font-size: 1rem;
+    border: none;
+    background-color: #efefef;
+    margin-left: 1rem;
+}
+
+.inputField input:focus {
+    list-style: none;
+    border: none;
+    border-style: none;
+    outline: none;
+}
+
+.generateOtp {
+    background-color: #00b2ff;
+    width: 260px !important;
+    height: 41px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0.6rem;
+}
+.generateOtp:hover {
+    background-color: #00a1e6;
+}
+.generateOtp:active {
+    background-color: #0098da;
+}
+
+.i-icon {
+    font-size: 0.7rem;
+    min-width: 0.8rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #939393;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #939393;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.id-instruction {
+    font-size: 0.7rem;
+    width: 260px;
+    color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0.6rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translate(-50%, 0);
+    color: #939393;
+    z-index: -10;
+}
+.footer h4 {
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+    .backgroundImage {
+        display: none;
+    }
+    .loginMain,.loginContent {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* display: none; */
+    }
+    .otpMain,.content {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .otpNav{
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50% !important;
+        transform: translate(-50%, 0);
+        color: #939393;
+        z-index: -10;
+    }
+    .logo {
+        width: 7rem !important;
+    }
+    .content h1:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+}

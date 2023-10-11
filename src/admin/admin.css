@@ -1,0 +1,264 @@
+body {
+    color: #282828;
+    overflow-x: hidden;
+}
+.mc-candit-container div {
+    width: 150px;
+    min-width: 150px;
+    height: 150px;
+}
+
+.votingPageId {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+}
+
+.votingPageId div {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.votingPageId div p {
+    margin: 0;
+    color: #00b2ff;
+}
+
+.heading {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.i-icon {
+    font-size: 0.7rem;
+    min-width: 0.8rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #939393;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #939393;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+.officeBearer::after{
+    content: "";
+    display: block;
+    width: 60vw;
+    height: 0.05rem;
+    background-color: #282828;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 5rem;
+}
+.officeBearer-voting-instruction {
+    font-size: 1rem;
+    width: 100%;
+    color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+.candit .officebearercandidate {
+    /* background-image: url('./Candits/candit1.jpeg'); */
+    min-width: 8rem;
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* filter: grayscale(100); */
+    /* padding: 2px; */
+}
+
+.candit {
+    display: flex;
+    width: 25rem;
+}
+
+.candit h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.officeBearer .position {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.officeBearer {
+    text-align: center;
+    /* margin-top: 10rem; */
+    height: 20rem;
+}
+
+.officeBearer h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.managingCommittee {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #282828;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* margin-left: 50%; */
+    /* transform: translate(-50%,0); */
+}
+
+.mc-candit-container {
+    width: 10rem;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.mc-candit-container h3 {
+    width: 10rem;
+    text-align: center;
+}
+
+.castvotebtn {
+    font-size: 1.5rem;
+    background-color: #00bb1e;
+    width: 18rem;
+    height: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.uit-arrow-circle-right {
+    stroke: white;
+    stroke-width: 2px;
+    margin-left: 2rem;
+}
+
+.castvotebtn:hover {
+    background-color: #00b31e;
+}
+.castvotebtn:active {
+    background-color: #01aa1d;
+}
+.oath {
+    width: 25rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+}
+@media screen and (max-width: 600px) {
+    .heading h2 {
+        font-size: 1rem;
+    }
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+    .officeBearer-voting-instruction {
+        font-size: 0.8rem;
+    }
+    .officeBearer h1 {
+        font-size: 2rem;
+    }
+
+    .candit .officebearercandidate {
+        min-width: 5rem;
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+    }
+
+    .candit {
+        display: flex;
+        width: 50vw;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .candit h3 {
+        font-size: 1rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .officeBearer {
+        text-align: center;
+        height: 15rem;
+    }
+    .officeBearer h1{
+        font-size: 1.5rem;
+
+    }
+    .mc-candit-container div {
+        min-width: 5rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .mc-candit-container h3 {
+        font-size: 1rem;
+    }
+    .castvotebtn {
+        font-size: 1rem;
+        width: 12rem;
+        height: 3rem;
+        margin-top: 5rem;
+    }
+    .oath {
+        width: 15rem;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 15rem;
+    }
+    .tfv{
+        text-align: center;
+    }
+    .officeBearer::after{
+        margin-top: 2rem;
+    }
+    .uit-arrow-circle-right{
+        margin-left: 1rem;
+    }
+    .tfv h1 {
+        font-size: 1.2rem;
+
+    }
+    .tfv h3 {
+        font-size: 1rem;
+    }
+}
